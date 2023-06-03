@@ -1,0 +1,149 @@
+body{
+background-image: url(imgs/layered-waves-haikei.svg);
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0%;
+}  
+ 
+nav{
+display: flex;
+position: absolute;
+width: 100%;
+height: 130px;
+left: 0px;
+top: 0px;
+background-color: #fff;
+justify-content: space-evenly;
+text-align: center;
+align-items: center;
+border-bottom: black solid 1px;
+}
+nav .logo{
+width: 118px;
+height: 114px;
+left: 381px;
+top: 8px;
+}
+
+nav a{
+text-decoration: none;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+color: black;
+}
+.main-container {
+box-sizing: border-box;
+position: absolute;
+left: 25%;
+right: 22.99%;
+top: 35.71%;
+bottom: 26.35%;
+height:847px;
+background: #F1FFF0;
+border: 1px solid rgba(0, 0, 0, 0.1);
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.main-container {
+ transform: translateY(-193px);
+}
+/* titles */
+.main-container .titles {
+width: 116px; 
+height: 36px;
+gap: 160px;
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+font-style: normal; 
+font-weight: 800;
+ font-size: 30px;
+line-height: 36px; 
+display: flex; 
+justify-content: space-evenly; 
+transform: translateX(450px);
+}
+
+.main-container .titles ul{ 
+    transform: translateY(-230px);
+}
+
+/* cards */
+.main-container .background{
+ display: flex;
+ justify-content: space-evenly;
+ gap: 50px;
+ transform: translateX(-58px);
+ -webkit-transform: translateX(-58px);
+ -moz-transform: translateX(-58px);
+ -ms-transform: translateX(-58px);
+ -o-transform: translateX(-58px);
+}
+.main-container .background .colors{
+width: 280px;
+height: 280px;
+left: 369px;
+top: 466px;
+background: linear-gradient(180deg,
+rgba(90, 209, 34, 0) 4.17%,
+rgba(102, 213, 50, 0.2) 98.44%), 
+linear-gradient(180deg, rgba(255, 138, 0, 0.316) 0%,
+rgba(255, 255, 255, 0) 100%);
+border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.main-container .colors .user{
+width: 255.29px;
+height: 255.29px;
+border-radius: 20px;
+background-color: #fff;
+border: none;
+cursor: pointer;
+}
+.main-container .colors .user i{
+font-size: 105px;
+color: #5CBF6C;
+}
+.main-container .colors .area{
+width: 255.29px;
+height: 255.29px;
+border-radius: 20px;
+background-color: #fff;
+border: none;
+cursor: pointer;
+}
+.main-container .colors .area i{
+font-size: 105px;
+color: #5CBF6C;
+}
+
+.main-container .colors .admin{
+width: 255.29px;
+height: 255.29px;
+border-radius: 20px;
+background-color: #fff;
+border: none;
+cursor: pointer;
+}
+.main-container .colors .admin i{
+font-size: 105px;
+color: #5CBF6C;
+}
+
+footer { 
+display: flex;
+width: 100%;
+height: 110px;
+background-color: #F1FFF0;
+transform: translateY(978px);
+-webkit-transform: translateY(978px);
+-moz-transform: translateY(978px);
+-ms-transform: translateY(978px);
+-o-transform: translateY(978px);
+align-items: center;
+justify-content: center;
+border-top: 1px solid black;
+}
+
